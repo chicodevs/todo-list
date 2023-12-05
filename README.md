@@ -42,7 +42,7 @@ This project is a personal endeavor to build a full application without framewor
     DATABASE_PWD=your_pwd
     ```
 
-3. **Start the Server**:
+3. **Start the Server on PORT 4000**:
 
     ```bash
     npm run start
