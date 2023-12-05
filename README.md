@@ -17,7 +17,7 @@ This project is a personal endeavor to build a full application without framewor
 1. **Clone Repository**:
 
     ```bash
-    git clone https://github.com/Francisco-gui/todo-list.git
+    git clone https://github.com/chicodevs/todo-list.git
     cd back-vanilla
     ```
 
@@ -46,15 +46,6 @@ This project is a personal endeavor to build a full application without framewor
 
     ```bash
     npm run start
-    ```
-
-    Test endpoints using [Insomnia](https://insomnia.rest/) with the following routes:
-
-    ```http
-    GET      /
-    POST     /
-    PUT      /
-    DELETE   /
     ```
 
 ### Front-end Setup
