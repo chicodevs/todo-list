@@ -53,7 +53,6 @@ This project is a personal endeavor to build a full application without framewor
     ```http
     GET      /
     POST     /
-    GET      /
     PUT      /
     DELETE   /
     ```
