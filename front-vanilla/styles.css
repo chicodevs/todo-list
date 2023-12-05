@@ -1,0 +1,124 @@
+:root {
+  /* COLORS */
+
+  --white: #f7f7f7;
+  --text: #505050;
+  --primary: #8D38DE;
+  --test: #EAC99E;
+
+  /* SPACES */
+
+  --spacing-xs: 8px; 
+  --spacing-sm: 16px;
+  --spacing-md: 24px; 
+  --spacing-lg: 32px; 
+  --spacing-xl: 48px;
+  --spacing-xxl: 96px; 
+
+  /* FONT SIZE */
+ 
+  --font-sm: 1rem;
+  --font-md: 1.5rem; 
+  --font-lg: 2rem; 
+
+  /* FONT WEIGHT */
+ 
+  --font-light: 300;
+  --font-regular: 400; 
+  --font-bold: 600;
+
+  /* BORDER RADIUS*/
+
+  --radius-xs: 8px;
+  --radius-sm: 16px;   
+  --radius-circle: 50%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  background-color: var(--primary);
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var( --spacing-md);
+  font-size: var(--font-lg);
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: var(--spacing-sm);
+  gap: var( --spacing-xs);
+}
+
+form input {
+  width: 300px;
+  height: 30px;
+  border-radius: var(--radius-xs);
+  border: 1px solid #8D38DE40;
+  padding: 0 10px;
+}
+
+form input:focus {
+  outline: 1px solid #8D38DE80;
+}
+
+form button {
+  width: 50px;
+  height: 30px;
+  border: 2px solid #8D38DE80;
+  border-radius: var(--radius-xs);
+  background-color: #8D38DE40;
+  color: var(--primary);
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #8D38DE10;;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: var(--spacing-md);
+}
+
+.todo-item-label {
+  border: none;
+  outline: none;
+}
+
+.todo-item i {
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.fa-trash-can {
+  color: red;
+}
+
+.fa-circle-check {
+  color: green;
+}
+
+.todo-item input {
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.checked-todo {
+  text-decoration: line-through;
+}
+
+
